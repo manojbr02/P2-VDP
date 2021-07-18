@@ -14,6 +14,7 @@ html,body{
     margin-top: 10px;
     margin-left: 50px;
     margin-right: 50px;
+    position: relative;
 }
 /******** header *****/
 .vdp-logo{
@@ -84,18 +85,62 @@ html,body{
     font-weight: 500;
     color: #555;
     line-height: 1.5;
+    margin: 10px 10px;
 }
 .sevice-sub-section a{
     margin-left: 1000px;
+    margin-top: 100px;
 }
 .btn-full{
     text-align: center;
     text-decoration: none;
     border: 2px solid black;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .btn-full:hover{
     background-color: blue;
     color: white;
+}
+.sevice-sub-section i{
+    font-size: 60px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/*** footer-section****/
+footer{
+    background-color: dimgrey;
+    height: 15vh;
+    margin-top: 20px;
+}
+footer a img{
+    width: 80px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.social-links{
+    text-align: right;
+    margin-top: -60px;
+    margin-right: 50px;
+
+}
+.social-links a{
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+}
+.footer-bottomhead{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.footer-bottomhead h5{
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 900;
+    color: #fff;
+    margin-right: 10px;
+    
 }

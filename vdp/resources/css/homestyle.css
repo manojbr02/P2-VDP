@@ -12,6 +12,7 @@ html,body{
     color: black;
     text-rendering: optimizeLegibility;
     margin: 10px;
+    position: relative;
 }
 
 /******** header *****/
@@ -180,18 +181,6 @@ html,body{
     padding-left: 20px;
     padding-right: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*** footer-section****/
