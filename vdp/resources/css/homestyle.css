@@ -19,13 +19,14 @@ html,body{
     width: 100px;
     height: 100px;
     border-radius: 47px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 .nav-menu{
     float: right;
     font-size: 20px;
     font-weight: 500;
     margin-top: 40px;
+    margin-right: 50px;
 }
 .nav-menu ul li{
     display: inline-block;
@@ -177,8 +178,7 @@ html,body{
     text-align: center;
     text-decoration: none;
     border: 2px solid black;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 20px;
 }
 
 
@@ -196,7 +196,7 @@ footer a img{
 .social-links{
     text-align: right;
     margin-top: -60px;
-    margin-right: 50px;
+    margin-right: 80px;
 
 }
 .social-links a{
@@ -206,7 +206,6 @@ footer a img{
 }
 .footer-bottomhead{
     margin-left: 200px;
-    margin-top: 10px;
 }
 .footer-bottomhead h5{
     display: inline-block;
@@ -214,7 +213,6 @@ footer a img{
     font-weight: 900;
     color: #fff;
     margin-right: 10px;
-    
 }
 
 /******for whatsapp section****/

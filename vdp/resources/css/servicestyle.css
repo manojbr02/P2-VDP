@@ -95,8 +95,7 @@ html,body{
     text-align: center;
     text-decoration: none;
     border: 2px solid black;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 3px 20px;
 }
 .btn-full:hover{
     background-color: indigo;
@@ -134,7 +133,6 @@ footer a img{
 }
 .footer-bottomhead{
     margin-left: 200px;
-    margin-top: 10px;
 }
 .footer-bottomhead h5{
     display: inline-block;

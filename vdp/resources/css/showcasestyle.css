@@ -104,6 +104,7 @@ h2{
     padding: 10px 25px;
     border-radius: 0;
     margin-left: 70%;
+    cursor: pointer;
 }
 
 .btn-big {
@@ -147,7 +148,6 @@ footer a img{
 }
 .footer-bottomhead{
     margin-left: 200px;
-    margin-top: 10px;
 }
 .footer-bottomhead h5{
     display: inline-block;
