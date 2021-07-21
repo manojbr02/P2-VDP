@@ -15,12 +15,18 @@ html,body{
     margin-left: 50px;
     margin-right: 50px;
 }
+body{
+    background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)) ,url(../img/back-img.jpg); 
+    background-attachment: fixed; 
+    background-size: cover;
+}
 /******** header *****/
 .vdp-logo{
     width: 100px;
     height: 100px;
     border-radius: 47px;
     margin-left: 20px;
+    margin-top: 10px;
 }
 .nav-menu{
     float: right;
@@ -38,10 +44,10 @@ html,body{
     transition: .2s;
 }
 .nav-menu ul li a:hover{
-    border-bottom: 3px solid lightgray;
+    border-bottom: 3px solid indigo;
 }
 .home-btn{
-    border-bottom: 3px solid lightgray;
+    border-bottom: 3px solid blueviolet;
 }
 
 /********contact-section****/
@@ -60,16 +66,17 @@ html,body{
     margin-top: 30px;
 }
 .contact-left h4{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 400;
     margin-bottom: 10px;
+    margin-left: 20px;
 }
 .contact-subleft{
     display: flex;
     margin-bottom: 40px;
 }
 .contact-subleft i{
-    font-size: 40px;
+    font-size: 50px;
     margin-left: 20px;
     margin-right: 30px;
     border: 2px solid black;

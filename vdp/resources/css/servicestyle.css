@@ -16,12 +16,19 @@ html,body{
     margin-right: 50px;
     position: relative;
 }
+body{
+    background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)) ,url(../img/back-img.jpg); 
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
 /******** header *****/
 .vdp-logo{
     width: 100px;
     height: 100px;
     border-radius: 47px;
     margin-left: 20px;
+    margin-top: 10px;
 }
 .nav-menu{
     float: right;
@@ -39,10 +46,10 @@ html,body{
     transition: .2s;
 }
 .nav-menu ul li a:hover{
-    border-bottom: 3px solid lightgray;
+    border-bottom: 3px solid indigo;
 }
 .home-btn{
-    border-bottom: 3px solid lightgray;
+    border-bottom: 3px solid blueviolet;
 }
 
 /**** midle-section****/
@@ -53,6 +60,7 @@ html,body{
     width: 45%;
     height: 45%;
     float: left;
+    margin-left: 15px;
 }
 .middle-para{
     margin-left: 30px;
@@ -106,6 +114,9 @@ html,body{
     text-align: center;
     margin-left: 10px;
     margin-top: 10px;
+}
+.middle-para{
+    margin-right: 15px;
 }
 
 /*** footer-section****/

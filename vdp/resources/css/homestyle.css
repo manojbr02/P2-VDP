@@ -13,6 +13,11 @@ html,body{
     text-rendering: optimizeLegibility;
     margin: 10px;
 }
+body{
+    background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)) ,url(../img/back-img.jpg); 
+    background-attachment: fixed; 
+    background-size: cover;
+}
 
 /******** header *****/
 .vdp-logo{
@@ -20,6 +25,7 @@ html,body{
     height: 100px;
     border-radius: 47px;
     margin-left: 40px;
+    margin-top: 10px;
 }
 .nav-menu{
     float: right;
@@ -38,20 +44,12 @@ html,body{
     transition: .2s;
 }
 .nav-menu ul li a:hover{
-    border-bottom: 3px solid lightgray;
+    border-bottom: 3px solid indigo;
 }
 .home-btn{
-    border-bottom: 3px solid lightgray;
+    border-bottom: 3px solid blueviolet;
 }
-.btn{
-    border-radius:20px ;
-}
-.btn:hover{
-    border-radius:20px ;
-    background-color: #000;
-    border: 2px solid white;
-    color: white;
-}
+
 /**** slider-section*****/
 .slider{
     margin: auto;
@@ -179,6 +177,9 @@ html,body{
     text-decoration: none;
     border: 2px solid black;
     padding: 0 20px;
+}
+.contact-tab a:hover{
+    color: white;
 }
 
 
